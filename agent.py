@@ -23,7 +23,7 @@ from database import (
 load_dotenv(find_dotenv(),override=True)
 client = OpenAI(
     # api_key=os.getenv("OPENAI_API_KEY")
-    api_key=os.environ("OPENAI_API_KEY")
+    api_key=os.environ["OPENAI_API_KEY"]
 )
 
 
